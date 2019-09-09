@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "485194871479",
+    "firebase_url": "https://indiasnewsapp.firebaseio.com",
+    "project_id": "indiasnewsapp",
+    "storage_bucket": "indiasnewsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485194871479:android:da3513d9ce7781a2",
+        "android_client_info": {
+          "package_name": "com.blogspot.pavankreddy.indiasnewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485194871479-897f1s4flpfbufoiqbl9i80g54idtfeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.pavankreddy.indiasnewsapp",
+            "certificate_hash": "edf95850b736b04f042df4ce97262d5fc3377fca"
+          }
+        },
+        {
+          "client_id": "485194871479-fhlu65oiuoqcrnqn3rpjdr0k7jttkamu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "485194871479-fhlu65oiuoqcrnqn3rpjdr0k7jttkamu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJaVkpT9OnWDKbzGXYmdgVANA5UXRpPLQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485194871479-fhlu65oiuoqcrnqn3rpjdr0k7jttkamu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
