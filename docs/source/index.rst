@@ -13,4 +13,4 @@ Welcome to indianews's documentation!
    NavigationComponents
    DataBinding
    OverView
-   trail
+   trail.md
