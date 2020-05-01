@@ -6,4 +6,10 @@
 Welcome to indianews's documentation!
 =====================================
 
-**This is an App that gives news to everyone**
+.. toctree::
+   :maxdepth: 2
+   :numbered:
+
+   NavigationComponents
+   DataBinding
+   OverView
