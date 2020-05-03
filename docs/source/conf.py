@@ -69,11 +69,19 @@ exclude_patterns = []
 pygments_style = None
 
 
-html_theme = "haiku"
-html_theme_options = {
-    "leftsidebar": "true",
-    "relbarbgcolor": "black"
-}
+# html_theme = "haiku"
+# html_theme_options = {
+#    "leftsidebar": "true",
+#    "relbarbgcolor": "black"
+#}
+import sphinx_rtd_theme
+
+extensions = [
+    ...
+    'sphinx_rtd_theme',
+]
+
+html_theme = "sphinx_rtd_theme"
 
 # -- Options for LaTeX output ------------------------------------------------
 
