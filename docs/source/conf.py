@@ -69,45 +69,11 @@ exclude_patterns = []
 pygments_style = None
 
 
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-#
-# html_theme_options = {}
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-
-# Custom sidebar templates, must be a dictionary that maps document names
-# to template names.
-#
-# The default sidebars (for documents that don't match any pattern) are
-# defined by theme itself.  Builtin themes are using these templates by
-# default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
-# 'searchbox.html']``.
-#
-# html_sidebars = {}
-#---sphinx-themes-----
-html_theme = 'p-green'
-import os
-from PSphinxTheme import utils
-
-p, html_theme, needs_sphinx = utils.set_psphinxtheme(html_theme)
-html_theme_path = p
-
-# -- Options for HTMLHelp output ---------------------------------------------
-
-# Output file base name for HTML help builder.
-htmlhelp_basename = 'indianewsdoc'
-
+html_theme = "haiku"
+html_theme_options = {
+    "leftsidebar": "true",
+    "relbarbgcolor": "black"
+}
 
 # -- Options for LaTeX output ------------------------------------------------
 
